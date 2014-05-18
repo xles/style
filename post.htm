@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
   <link rel="stylesheet" href="css/nom.css">
   <link rel="stylesheet" href="css/reader.css">
-  <!--
+<!--
   <link rel="stylesheet" href="css/journal.css">
   -->
 </head>
@@ -78,10 +78,8 @@ can <a href="/projects/markdown/syntax.text">see the source for it by adding &ls
 
 <hr>
 
-<section>
 <h2 id="overview">Overview</h2>
 
-<section>
 <h3 id="philosophy">Philosophy</h3>
 
 <p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
@@ -100,9 +98,7 @@ as to look like what they mean. E.g., asterisks around a word actually
 look like *emphasis*. Markdown lists look like, well, lists. Even
 blockquotes look like quoted passages of text, assuming you&rsquo;ve ever
 used email.</p>
-</section>
 
-<section>
 <h3 id="html">Inline HTML</h3>
 
 <p>Markdown&rsquo;s syntax is intended for one purpose: to be used as a
@@ -153,9 +149,7 @@ link or image syntax, go right ahead.</p>
 
 <p>Unlike block-level HTML tags, Markdown syntax <em>is</em> processed within
 span-level tags.</p>
-</section>
 
-<section>
 <h3 id="autoescape">Automatic Escaping for Special Characters</h3>
 
 <p>In HTML, there are two characters that demand special treatment: <code>&lt;</code>
@@ -217,15 +211,11 @@ ampersands are <em>always</em> encoded automatically. This makes it easy to use
 Markdown to write about HTML code. (As opposed to raw HTML, which is a
 terrible format for writing about HTML syntax, because every single <code>&lt;</code>
 and <code>&amp;</code> in your example code needs to be escaped.)</p>
-</section>
-</section>
 
 <hr>
 
-<section>
 <h2 id="block">Block Elements</h2>
 
-<section>
 <h3 id="p">Paragraphs and Line Breaks</h3>
 
 <p>A paragraph is simply one or more consecutive lines of text, separated
@@ -246,9 +236,7 @@ end a line with two or more spaces, then type return.</p>
 &ldquo;every line break is a <code>&lt;br /&gt;</code>&rdquo; rule wouldn&rsquo;t work for Markdown.
 Markdown&rsquo;s email-style <a href="#blockquote">blockquoting</a> and multi-paragraph <a href="#list">list items</a>
 work best &ndash; and look better &ndash; when you format them with hard breaks.</p>
-</section>
 
-<section>
 <h3 id="header">Headers</h3>
 
 <p>Markdown supports two styles of headers, <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a> and <a href="http://www.aaronsw.com/2002/atx/">atx</a>.</p>
@@ -287,9 +275,7 @@ determines the header level.) :</p>
 
 ### This is an H3 ######
 </code></pre>
-</section>
 
-<section>
 <h3 id="blockquote">Blockquotes</h3>
 
 <p>Markdown uses email-style <code>&gt;</code> characters for blockquoting. If you&rsquo;re
@@ -342,9 +328,7 @@ and code blocks:</p>
 <p>Any decent text editor should make email-style quoting easy. For
 example, with BBEdit, you can make a selection and choose Increase
 Quote Level from the Text menu.</p>
-</section>
 
-<section>
 <h3 id="list">Lists</h3>
 
 <p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
@@ -520,9 +504,7 @@ line. To avoid this, you can backslash-escape the period:</p>
 
 <pre><code>1986\. What a great season.
 </code></pre>
-</section>
 
-<section>
 <h3 id="precode">Code Blocks</h3>
 
 <p>Pre-formatted code blocks are used for writing about programming or
@@ -591,9 +573,7 @@ ampersands and angle brackets. For example, this:</p>
 <p>Regular Markdown syntax is not processed within code blocks. E.g.,
 asterisks are just literal asterisks within a code block. This means
 it&rsquo;s also easy to use Markdown to write about Markdown&rsquo;s own syntax.</p>
-</section>
 
-<section>
 <h3 id="hr">Horizontal Rules</h3>
 
 <p>You can produce a horizontal rule tag (<code>&lt;hr /&gt;</code>) by placing three or
@@ -611,15 +591,11 @@ following lines will produce a horizontal rule:</p>
 
 ---------------------------------------
 </code></pre>
-</section>
-</section>
 
 <hr>
 
-<section>
 <h2 id="span">Span Elements</h2>
 
-<section>
 <h3 id="link">Links</h3>
 
 <p>Markdown supports two style of links: <em>inline</em> and <em>reference</em>.</p>
@@ -793,9 +769,7 @@ closely resembles the final output, as rendered in a browser. By
 allowing you to move the markup-related metadata out of the paragraph,
 you can add links without interrupting the narrative flow of your
 prose.</p>
-</section>
 
-<section>
 <h3 id="em">Emphasis</h3>
 
 <p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of
@@ -840,9 +814,7 @@ escape it:</p>
 
 <pre><code>\*this text is surrounded by literal asterisks\*
 </code></pre>
-</section>
 
-<section>
 <h3 id="code">Code</h3>
 
 <p>To indicate a span of code, wrap it with backtick quotes (<code>`</code>).
@@ -906,9 +878,7 @@ tags. Markdown will turn this:</p>
 <pre><code>&lt;p&gt;&lt;code&gt;&amp;amp;#8212;&lt;/code&gt; is the decimal-encoded
 equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;
 </code></pre>
-</section>
 
-<section>
 <h3 id="img">Images</h3>
 
 <p>Admittedly, it&rsquo;s fairly difficult to devise a &ldquo;natural&rdquo; syntax for
@@ -949,15 +919,11 @@ are defined using syntax identical to link references:</p>
 <p>As of this writing, Markdown has no syntax for specifying the
 dimensions of an image; if this is important to you, you can simply
 use regular HTML <code>&lt;img&gt;</code> tags.</p>
-</section>
-</section>
 
 <hr>
 
-<section>
 <h2 id="misc">Miscellaneous</h2>
 
-<section>
 <h3 id="autolink">Automatic Links</h3>
 
 <p>Markdown supports a shortcut style for creating &ldquo;automatic&rdquo; links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:</p>
@@ -992,9 +958,7 @@ spambots. For example, Markdown will turn this:</p>
 most, address-harvesting bots, but it definitely won&rsquo;t fool all of
 them. It&rsquo;s better than nothing, but an address published in this way
 will probably eventually start receiving spam.)</p>
-</section>
 
-<section>
 <h3 id="backslash">Backslash Escapes</h3>
 
 <p>Markdown allows you to use backslash escapes to generate literal
@@ -1021,8 +985,6 @@ _   underscore
 .   dot
 !   exclamation mark
 </code></pre>
-</section>
-</section>
       <footer>
         Posted on <time>2004-01-01</time>
       </footer>

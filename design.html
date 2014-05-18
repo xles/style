@@ -1,70 +1,78 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{title}}</title>
-  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-  <link rel="stylesheet" href="css/nom.css">
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="css/nom.css">
   <link rel="stylesheet" href="css/reader.css">
-  <!--
-  <link rel="stylesheet" href="css/journal.css">
-  -->
 </head>
 <body>
-  <header>
-    <p>Fancy journal title</p>
-    <p>fancy journal description</p>
-  </header>
-  <nav>
-    <a href="#headers">
-      Header level testing
-      <time>2014-01-16</time>
-    </a>
-    <a href="#markdown">
-      Markdown syntax testing
-      <time>2014-01-16</time>
-    </a>
-    <a href="#first">
-      first post
-      <time>2014-01-16</time>
-    </a>
-    <a href="#second">
-      second post
-      <time>2014-01-15</time>
-    </a>
-    <a href="#third">
-      third post
-      <time>2014-01-14</time>
-    </a>
-    <a href="#fourth">
-      fourth post
-      <time>2014-01-13</time>
-    </a>
-    <a href="#fifth">
-      fifth post
-      <time>2014-01-12</time>
-    </a>
-    <hr>
-    <a href="#">Archive</a>
-    <a href="#">RSS feed</a>
-    <hr>
-    <a href="http://github.com/">github is really neat</a>
-  </nav>
-  <nav id="toc"></nav>
-  <main>
-    <article>
-      <header>
-        <h1>Markdown: Syntax</h1>
-      </header>
-<samp>Rarity% <kbd>journal serve</kbd>
-Launching server on port 4000, press <kbd><kbd>^C</kbd></kbd> to exit.
-<kbd>^C</kbd>
-Rarity% <kbd>make</kbd>
-Compiling "journal" program.</samp>
-
-<p> To run the <code>program</code>, just run <kbd class="usr">journal serve</kbd>. The program
-will say <samp>Launching server on port 4000</samp> when it's ready, To quit
-you can just type <kbd><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd>, it's that simple.</p>
+	<header>
+		<p>Fancy blog title</p>
+		<p>fancy blog description</p>
+	</header>
+	<nav>
+		<a href="#headers">
+			Header level testing
+			<time>2014-01-16</time>
+		</a>
+		<a href="#markdown">
+			Markdown syntax testing
+			<time>2014-01-16</time>
+		</a>
+		<a href="#first">
+			first post
+			<time>2014-01-16</time>
+		</a>
+		<a href="#second">
+			second post
+			<time>2014-01-15</time>
+		</a>
+		<a href="#third">
+			third post
+			<time>2014-01-14</time>
+		</a>
+		<a href="#fourth">
+			fourth post
+			<time>2014-01-13</time>
+		</a>
+		<a href="#fifth">
+			fifth post
+			<time>2014-01-12</time>
+		</a>
+		<hr>
+		<a href="#">Archive</a>
+		<a href="#">RSS feed</a>
+		<hr>
+		<a href="http://github.com/">github is really neat</a>
+	</nav>
+	<main>
+		<article>
+			<header>
+				<a href="#headers" id="headers">
+					<h1>First level header</h1>
+					<time>2014-01-16</time>
+				</a>
+			</header>
+			<p>Shankle <a href="markdown.net">Markdown ftw</a> sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<h2>Second level header</h2>
+			<p>Shankle <a href="markdown.net">Markdown ftw</a> sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<h3>Third level header</h3>
+			<p>Shankle <a href="markdown.net">Markdown ftw</a> sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<h4>Fourth level header</h4>
+			<p>Shankle <a href="markdown.net">Markdown ftw</a> sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<h5>Fifth level header</h5>
+			<p>Shankle <a href="markdown.net">Markdown ftw</a> sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<h6>Sixth level header</h6>
+			<p>Shankle <a href="markdown.net">Markdown ftw</a> sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+		</article>
+		<article>
+			<header>
+				<a href="#markdown" id="markdown">
+					<h1>Markdown: Syntax</h1>
+					<time>2014-01-16</time>
+				</a>
+			</header>
 <ul id="ProjectSubmenu">
     <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
     <li><a href="/projects/markdown/basics" title="Markdown Basics">Basics</a></li>
@@ -73,15 +81,47 @@ you can just type <kbd><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd>, it's that simple.</p>
     <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
 </ul>
 
-<p><strong>Note:</strong> This <kbd>document</kbd> <mark>is itself written using Markdown</mark>; you
+<ol>
+<li>  <a href="#overview">Overview</a>
+
+<ol>
+<li>  <a href="#philosophy">Philosophy</a></li>
+<li>  <a href="#html">Inline HTML</a></li>
+<li>  <a href="#autoescape">Automatic Escaping for Special Characters</a></li>
+</ol></li>
+<li>  <a href="#block">Block Elements</a>
+
+<ol>
+<li>  <a href="#p">Paragraphs and Line Breaks</a></li>
+<li>  <a href="#header">Headers</a></li>
+<li>  <a href="#blockquote">Blockquotes</a></li>
+<li>  <a href="#list">Lists</a></li>
+<li>  <a href="#precode">Code Blocks</a></li>
+<li>  <a href="#hr">Horizontal Rules</a></li>
+</ol></li>
+<li>  <a href="#span">Span Elements</a>
+
+<ol>
+<li>  <a href="#link">Links</a></li>
+<li>  <a href="#em">Emphasis</a></li>
+<li>  <a href="#code">Code</a></li>
+<li>  <a href="#img">Images</a></li>
+</ol></li>
+<li>  <a href="#misc">Miscellaneous</a>
+
+<ol>
+<li>  <a href="#backslash">Backslash Escapes</a></li>
+<li>  <a href="#autolink">Automatic Links</a></li>
+</ol></li>
+</ol>
+
+<p><strong>Note:</strong> This document is itself written using Markdown; you
 can <a href="/projects/markdown/syntax.text">see the source for it by adding &lsquo;.text&rsquo; to the URL</a>.</p>
 
 <hr>
 
-<section>
 <h2 id="overview">Overview</h2>
 
-<section>
 <h3 id="philosophy">Philosophy</h3>
 
 <p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
@@ -100,9 +140,7 @@ as to look like what they mean. E.g., asterisks around a word actually
 look like *emphasis*. Markdown lists look like, well, lists. Even
 blockquotes look like quoted passages of text, assuming you&rsquo;ve ever
 used email.</p>
-</section>
 
-<section>
 <h3 id="html">Inline HTML</h3>
 
 <p>Markdown&rsquo;s syntax is intended for one purpose: to be used as a
@@ -153,9 +191,7 @@ link or image syntax, go right ahead.</p>
 
 <p>Unlike block-level HTML tags, Markdown syntax <em>is</em> processed within
 span-level tags.</p>
-</section>
 
-<section>
 <h3 id="autoescape">Automatic Escaping for Special Characters</h3>
 
 <p>In HTML, there are two characters that demand special treatment: <code>&lt;</code>
@@ -217,15 +253,11 @@ ampersands are <em>always</em> encoded automatically. This makes it easy to use
 Markdown to write about HTML code. (As opposed to raw HTML, which is a
 terrible format for writing about HTML syntax, because every single <code>&lt;</code>
 and <code>&amp;</code> in your example code needs to be escaped.)</p>
-</section>
-</section>
 
 <hr>
 
-<section>
 <h2 id="block">Block Elements</h2>
 
-<section>
 <h3 id="p">Paragraphs and Line Breaks</h3>
 
 <p>A paragraph is simply one or more consecutive lines of text, separated
@@ -246,9 +278,7 @@ end a line with two or more spaces, then type return.</p>
 &ldquo;every line break is a <code>&lt;br /&gt;</code>&rdquo; rule wouldn&rsquo;t work for Markdown.
 Markdown&rsquo;s email-style <a href="#blockquote">blockquoting</a> and multi-paragraph <a href="#list">list items</a>
 work best &ndash; and look better &ndash; when you format them with hard breaks.</p>
-</section>
 
-<section>
 <h3 id="header">Headers</h3>
 
 <p>Markdown supports two styles of headers, <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a> and <a href="http://www.aaronsw.com/2002/atx/">atx</a>.</p>
@@ -287,9 +317,7 @@ determines the header level.) :</p>
 
 ### This is an H3 ######
 </code></pre>
-</section>
 
-<section>
 <h3 id="blockquote">Blockquotes</h3>
 
 <p>Markdown uses email-style <code>&gt;</code> characters for blockquoting. If you&rsquo;re
@@ -342,9 +370,7 @@ and code blocks:</p>
 <p>Any decent text editor should make email-style quoting easy. For
 example, with BBEdit, you can make a selection and choose Increase
 Quote Level from the Text menu.</p>
-</section>
 
-<section>
 <h3 id="list">Lists</h3>
 
 <p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
@@ -520,9 +546,7 @@ line. To avoid this, you can backslash-escape the period:</p>
 
 <pre><code>1986\. What a great season.
 </code></pre>
-</section>
 
-<section>
 <h3 id="precode">Code Blocks</h3>
 
 <p>Pre-formatted code blocks are used for writing about programming or
@@ -591,9 +615,7 @@ ampersands and angle brackets. For example, this:</p>
 <p>Regular Markdown syntax is not processed within code blocks. E.g.,
 asterisks are just literal asterisks within a code block. This means
 it&rsquo;s also easy to use Markdown to write about Markdown&rsquo;s own syntax.</p>
-</section>
 
-<section>
 <h3 id="hr">Horizontal Rules</h3>
 
 <p>You can produce a horizontal rule tag (<code>&lt;hr /&gt;</code>) by placing three or
@@ -611,15 +633,11 @@ following lines will produce a horizontal rule:</p>
 
 ---------------------------------------
 </code></pre>
-</section>
-</section>
 
 <hr>
 
-<section>
 <h2 id="span">Span Elements</h2>
 
-<section>
 <h3 id="link">Links</h3>
 
 <p>Markdown supports two style of links: <em>inline</em> and <em>reference</em>.</p>
@@ -793,9 +811,7 @@ closely resembles the final output, as rendered in a browser. By
 allowing you to move the markup-related metadata out of the paragraph,
 you can add links without interrupting the narrative flow of your
 prose.</p>
-</section>
 
-<section>
 <h3 id="em">Emphasis</h3>
 
 <p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of
@@ -840,9 +856,7 @@ escape it:</p>
 
 <pre><code>\*this text is surrounded by literal asterisks\*
 </code></pre>
-</section>
 
-<section>
 <h3 id="code">Code</h3>
 
 <p>To indicate a span of code, wrap it with backtick quotes (<code>`</code>).
@@ -906,9 +920,7 @@ tags. Markdown will turn this:</p>
 <pre><code>&lt;p&gt;&lt;code&gt;&amp;amp;#8212;&lt;/code&gt; is the decimal-encoded
 equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;
 </code></pre>
-</section>
 
-<section>
 <h3 id="img">Images</h3>
 
 <p>Admittedly, it&rsquo;s fairly difficult to devise a &ldquo;natural&rdquo; syntax for
@@ -949,15 +961,11 @@ are defined using syntax identical to link references:</p>
 <p>As of this writing, Markdown has no syntax for specifying the
 dimensions of an image; if this is important to you, you can simply
 use regular HTML <code>&lt;img&gt;</code> tags.</p>
-</section>
-</section>
 
 <hr>
 
-<section>
 <h2 id="misc">Miscellaneous</h2>
 
-<section>
 <h3 id="autolink">Automatic Links</h3>
 
 <p>Markdown supports a shortcut style for creating &ldquo;automatic&rdquo; links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:</p>
@@ -992,9 +1000,7 @@ spambots. For example, Markdown will turn this:</p>
 most, address-harvesting bots, but it definitely won&rsquo;t fool all of
 them. It&rsquo;s better than nothing, but an address published in this way
 will probably eventually start receiving spam.)</p>
-</section>
 
-<section>
 <h3 id="backslash">Backslash Escapes</h3>
 
 <p>Markdown allows you to use backslash escapes to generate literal
@@ -1021,33 +1027,62 @@ _   underscore
 .   dot
 !   exclamation mark
 </code></pre>
-</section>
-</section>
-      <footer>
-        Posted on <time>2004-01-01</time>
-      </footer>
-    </article>
-    <script src="js/toc.js"></script>
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'blankflank'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        /*
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-*/
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-      </main>
-  <footer>
-    Generated with <a href="http://github.com/xles/journal">journal</a> v0.1
-  </footer>
-  <a href="https://github.com/xles/xles.github.io/"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+		</article>
+		<article>
+			<header>
+				<a href="#second" id="second">
+					<h1>second post</h1>
+					<time>2014-01-15</time>
+				</a>
+			</header>
+			<p>Bacon ipsum dolor sit amet proident cow shoulder, ball tip prosciutto ex minim duis sint enim pariatur landjaeger sausage chicken sunt.  Hamburger consequat chicken, sunt in pastrami beef ribs ut ribeye kevin spare ribs officia pork.  Nostrud voluptate drumstick incididunt.  Meatball quis adipisicing fatback nisi.  Anim ullamco bacon tail shoulder fugiat.</p>
+			<p>Shankle sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<p>Labore pariatur ground round ut pork eiusmod biltong in drumstick laborum strip steak commodo do nostrud.  Salami venison kielbasa magna ea proident commodo sint sausage voluptate.  Proident irure jowl, andouille landjaeger rump adipisicing qui commodo.  In spare ribs adipisicing shoulder cillum t-bone velit filet mignon ball tip.  Flank magna nostrud, laborum short loin labore do leberkas pig fatback pork chop spare ribs strip steak.  Ullamco spare ribs labore drumstick adipisicing ribeye culpa do beef ribs salami short ribs ea bresaola.  Exercitation voluptate pig turkey dolor, dolore consequat venison.</p>
+			<p>Ut enim strip steak fugiat sunt commodo venison, hamburger ut tenderloin deserunt.  Biltong filet mignon jowl veniam capicola shank, in velit.  Minim ut cow jowl aliquip.  Bacon aliqua ham eiusmod deserunt, swine filet mignon corned beef.  Quis frankfurter cupidatat, ad consectetur capicola swine labore ribeye beef elit exercitation pork belly spare ribs.  Consequat bacon shoulder, fugiat aliqua doner aute kielbasa.  Sed magna minim t-bone quis consectetur landjaeger cow adipisicing ribeye beef elit tongue nisi.</p>
+			<p>Aute ham hock jerky spare ribs.  Sint andouille tri-tip, shankle anim landjaeger dolore fatback.  Biltong labore elit spare ribs tongue.  Est fugiat short ribs sirloin prosciutto, brisket in tempor aute.</p>
+		</article>
+		<article name="third">
+			<header>
+				<a href="#third" id="third">
+					<h1>third post</h1>
+					<time>2014-01-14</time>
+				</a>
+			</header>
+			<p>Shankle sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<p>Labore pariatur ground round ut pork eiusmod biltong in drumstick laborum strip steak commodo do nostrud.  Salami venison kielbasa magna ea proident commodo sint sausage voluptate.  Proident irure jowl, andouille landjaeger rump adipisicing qui commodo.  In spare ribs adipisicing shoulder cillum t-bone velit filet mignon ball tip.  Flank magna nostrud, laborum short loin labore do leberkas pig fatback pork chop spare ribs strip steak.  Ullamco spare ribs labore drumstick adipisicing ribeye culpa do beef ribs salami short ribs ea bresaola.  Exercitation voluptate pig turkey dolor, dolore consequat venison.</p>
+			<p>Ut enim strip steak fugiat sunt commodo venison, hamburger ut tenderloin deserunt.  Biltong filet mignon jowl veniam capicola shank, in velit.  Minim ut cow jowl aliquip.  Bacon aliqua ham eiusmod deserunt, swine filet mignon corned beef.  Quis frankfurter cupidatat, ad consectetur capicola swine labore ribeye beef elit exercitation pork belly spare ribs.  Consequat bacon shoulder, fugiat aliqua doner aute kielbasa.  Sed magna minim t-bone quis consectetur landjaeger cow adipisicing ribeye beef elit tongue nisi.</p>
+			<p>Aute ham hock jerky spare ribs.  Sint andouille tri-tip, shankle anim landjaeger dolore fatback.  Biltong labore elit spare ribs tongue.  Est fugiat short ribs sirloin prosciutto, brisket in tempor aute.</p>
+		</article>
+		<article name="fourth">
+			<header>
+				<a href="#fourth" id="fourth">
+					<h1>fourth post</h1>
+					<time>2014-01-13</time>
+				</a>
+			</header>
+			<p>Bacon ipsum dolor sit amet proident cow shoulder, ball tip prosciutto ex minim duis sint enim pariatur landjaeger sausage chicken sunt.  Hamburger consequat chicken, sunt in pastrami beef ribs ut ribeye kevin spare ribs officia pork.  Nostrud voluptate drumstick incididunt.  Meatball quis adipisicing fatback nisi.  Anim ullamco bacon tail shoulder fugiat.</p>
+			<p>Shankle sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<p>Labore pariatur ground round ut pork eiusmod biltong in drumstick laborum strip steak commodo do nostrud.  Salami venison kielbasa magna ea proident commodo sint sausage voluptate.  Proident irure jowl, andouille landjaeger rump adipisicing qui commodo.  In spare ribs adipisicing shoulder cillum t-bone velit filet mignon ball tip.  Flank magna nostrud, laborum short loin labore do leberkas pig fatback pork chop spare ribs strip steak.  Ullamco spare ribs labore drumstick adipisicing ribeye culpa do beef ribs salami short ribs ea bresaola.  Exercitation voluptate pig turkey dolor, dolore consequat venison.</p>
+			<p>Ut enim strip steak fugiat sunt commodo venison, hamburger ut tenderloin deserunt.  Biltong filet mignon jowl veniam capicola shank, in velit.  Minim ut cow jowl aliquip.  Bacon aliqua ham eiusmod deserunt, swine filet mignon corned beef.  Quis frankfurter cupidatat, ad consectetur capicola swine labore ribeye beef elit exercitation pork belly spare ribs.  Consequat bacon shoulder, fugiat aliqua doner aute kielbasa.  Sed magna minim t-bone quis consectetur landjaeger cow adipisicing ribeye beef elit tongue nisi.</p>
+		</article>
+		<article name="fifth">
+			<header>
+				<a href="#fifth" id="fifth">
+					<h1>fifth post</h1>
+					<time>2014-01-12</time>
+				</a>
+			</header>
+			<p>Shankle sausage drumstick et chicken pork chop pariatur ut eu doner nostrud veniam id commodo.  Incididunt prosciutto fatback ham hock ut turducken.  Sirloin tempor adipisicing culpa, laborum esse do chicken aliqua salami commodo.  Turducken laborum tongue brisket minim.</p>
+			<p>Labore pariatur ground round ut pork eiusmod biltong in drumstick laborum strip steak commodo do nostrud.  Salami venison kielbasa magna ea proident commodo sint sausage voluptate.  Proident irure jowl, andouille landjaeger rump adipisicing qui commodo.  In spare ribs adipisicing shoulder cillum t-bone velit filet mignon ball tip.  Flank magna nostrud, laborum short loin labore do leberkas pig fatback pork chop spare ribs strip steak.  Ullamco spare ribs labore drumstick adipisicing ribeye culpa do beef ribs salami short ribs ea bresaola.  Exercitation voluptate pig turkey dolor, dolore consequat venison.</p>
+			<p>Ut enim strip steak fugiat sunt commodo venison, hamburger ut tenderloin deserunt.  Biltong filet mignon jowl veniam capicola shank, in velit.  Minim ut cow jowl aliquip.  Bacon aliqua ham eiusmod deserunt, swine filet mignon corned beef.  Quis frankfurter cupidatat, ad consectetur capicola swine labore ribeye beef elit exercitation pork belly spare ribs.  Consequat bacon shoulder, fugiat aliqua doner aute kielbasa.  Sed magna minim t-bone quis consectetur landjaeger cow adipisicing ribeye beef elit tongue nisi.</p>
+		</article>
+		<footer>
+			<time datetime="2014-01-15">Last updated on 2014-01-15</time>
+		</footer>
+	</main>
+	<footer>
+		Generated with <a href="http://github.com/xles/journal">journal</a> v0.1
+	</footer>
+  <script src="js/toc.js"></script>
 </body>
 </html>

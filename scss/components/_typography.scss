@@ -35,11 +35,11 @@
 		height: $line-height;
 		text-align:center;
 		margin: $line-height;
-	}
-	hr:before {
-		content: "\2042";
-		text-align: center;
-	}
+    	&:before {
+    		content: "\2042";
+    		text-align: center;
+    	}
+    }
 	mark {
 		background-color: #FFCFC7;
 		opacity: 0.8;
