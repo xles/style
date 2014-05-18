@@ -1,0 +1,26 @@
+{
+  "name": "style",
+  "version": "0.0.0",
+  "authors": [
+    "xles <xles@mirakulix.org>"
+  ],
+  "description": "default styles",
+  "main": "scss/nom.scss",
+  "keywords": [
+    "sass",
+    "scss",
+    "css"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.1"
+  }
+}

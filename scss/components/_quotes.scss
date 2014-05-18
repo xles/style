@@ -1,0 +1,17 @@
+@media all {
+	blockquote {
+		margin: 1em 0 1em 0;
+		padding: 0.5em 2em 0.5em 1.5em;
+		border-left: 0.5em solid #EEE8D8;
+        > cite {
+            display: block;
+            text-align: right;
+            &:before {
+                content: "\2014";
+            }
+        }
+    }
+	q ~ cite {
+		font-style: italic;
+	}
+}

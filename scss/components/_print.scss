@@ -1,0 +1,60 @@
+@media print {
+	html, body {
+		padding:0;
+		margin:0;
+		width: 100%;
+	}
+	p {
+		font-size: 12pt;
+		padding:0;
+		text-align: justify;
+	}
+	p + p {
+		text-indent: 1.5em;
+	}
+	@page {
+	
+		margin-top: 11%;
+		margin-bottom: 22%;
+	/*
+		margin-left: 1in;
+		margin-right: 1in;
+		padding-top: 1in;
+		padding-bottom: 1in;
+		font-family: Georgia, Serif;
+	*/
+		color: #000;
+		background-color: #000;
+		widows:4;
+		orphans:4;
+		counter-increment: page;
+	}
+	@page:left {
+		margin-left: 22%;
+		margin-right: 11%;
+		@bottom-left {
+			content: counter(page);
+		}
+	}
+
+	@page:right {
+		margin-left: 11%;
+		margin-right: 22%;
+		@bottom-right {
+			content: counter(page);
+		}
+	}
+	h1, h2 {
+		page-break-before: right;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		page-break-after: avoid;
+	}
+	a {
+	}
+	body > header,
+	body > footer, 
+	menu, nav {
+		display: none;
+	}
+}

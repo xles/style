@@ -1,0 +1,47 @@
+@media all {
+	* {
+		font-size: 1em;
+		line-height: $line-height;
+		margin:0;
+		padding:0;
+		border:0;
+	}
+	body {
+		font-family: $regular-font;
+		font-size: $font-size;
+		line-height: $line-height;
+	}
+	ol ol, ul ul {
+		margin-bottom: 0;
+		padding-left: $line-height;
+	}
+	ol, ul {
+		padding-left: 0em;
+		margin-bottom: $line-height;
+	}
+	p {
+		text-align: justify;
+		white-space: inherit;
+	}
+	span.lining-figs, table, tr, td {
+		font-family: $lining-font;
+	}
+	abbr {
+		text-transform: lowercase;
+		font-variant: small-caps;
+		letter-spacing: 0.1em;
+	}
+	hr {
+		height: $line-height;
+		text-align:center;
+		margin: $line-height;
+	}
+	hr:before {
+		content: "\2042";
+		text-align: center;
+	}
+	mark {
+		background-color: #FFCFC7;
+		opacity: 0.8;
+	}
+}
