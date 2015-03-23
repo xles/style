@@ -1,35 +1,57 @@
 @media screen {
     nav#toc {
-            position: fixed;
-            z-index: 100;
-            background: #FFFFF0;
-            top: 3em;
-            left: 0;
-            padding: 2em;
+        position: fixed;
+        z-index: 100;
+        background: #FFFFF0;
+        top: 3em;
+        left: 0;
+        padding: 2em;
         margin-left: -25em;
         min-width: 23em;
-            border: 1px dashed #EEE8D8;
+        min-height: 18em;
+        border: 1px dashed #EEE8D8;
         color: #EEE8D8;
-        max-height: 90%;
-        overflow-y: scroll;
+        max-height: 80%;
+        overflow-y: hidden;
         transition: all 0.3s ease-in-out;
+        border-top-right-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+
         &:hover {
+            overflow-y: auto;
             color: initial;
             border: 1px dashed #999;
-                    width: 23em;
-                    margin-left: 0;
-            }
-        >:first-child {
+            width: 23em;
+            margin-left: 0;
+        }
+        h1 {
+            max-width: 19em;
+        }
+        > :first-child {
             margin-bottom: 0;
         }
         .title {
-                transform: rotate(90deg);
-                -webkit-transform: rotate(90deg);
-                text-transform: uppercase;
-                position: absolute;
-                right: -4em;
-                top: 10em;
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            text-transform: uppercase;
+            position: absolute;
+            right: -4em;
+            top: 10em;
+        }
+        ol {
+            padding-left: 1.5em;
+            counter-reset: item;
+            ol li {
+                display: block;
+                &:before {
+                    content: counters(item,".") " ";
+                    counter-increment: item;
+                }
+            }
 
+        }
+        > ol {
+            padding-left: 0;
         }
     }
 }
