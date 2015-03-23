@@ -11,7 +11,7 @@
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         padding-left: 0.5rem;
-        background-color: #Fcf6e6;
+        background-color: $code-color;
         font-size: 0.8rem;
         line-height: 1.5rem;
     }
@@ -19,27 +19,27 @@
         > code {
             font-size: 0.8rem;
             line-height: 1.5rem;
-            background-color: #F7EfDf;
+            background-color: $code-alt-color;
             padding-right: 0.3rem;
             padding-left: 0.3rem;
         }
         > kbd { /* User input */
-            background-color: #Fcf6e6;
+            background-color: $code-color;
             line-height: 1.5rem;
             font-size: 0.8rem;
             padding-right: 0.3rem;
             padding-left: 0.3rem;
             > kbd { /* Literal keypress input. */
-                border: 0.1em #C7C1A7 solid;
-                background-color: #FFFFF0;
+                border: 0.1em $kbd-color solid;
+                background-color: $body-color;
                 padding-right: 0.3rem;
                 padding-left: 0.3rem;
                 font-size: 0.8rem;
             }
         }
         > samp { /* Computer output */
-            color:#FFFFF0;
-            background-color: #C7C1A7;
+            color: $body-color;
+            background-color: $kbd-color;
             font-size: 0.8rem;
             padding-right: 0.3rem;
             padding-left: 0.3rem;
@@ -47,7 +47,7 @@
     }
     article {
         > samp {
-            color: #999;
+            color: $link-color;
             > kbd > kbd {
                 font-weight: bold;
             }
