@@ -1,4 +1,12 @@
-$regular-font: 'Constantia', 'Georgia', Serif;
-$lining-font: 'Cambria', 'Times New Roman', Serif;
-$font-size: 12pt;
-$line-height: 1.5em;
+$regular-font: 'Constantia', 'Georgia', Serif !default;
+$lining-font: 'Cambria', 'Times New Roman', Serif !default;
+$font-size: 12pt !default;
+$line-height: 1.5em !default;
+$background-color: #EEE8D8 !default;
+$body-color: #FFFFF0 !default;
+$text-color: #333 !default;
+$link-color: #999 !default;
+$mark-color: #FFCFC7 !default;
+$code-color: #Fcf6e6 !default;
+$code-alt-color: #F7EfDf !default;
+$kbd-color: #C7C1A7 !default;
